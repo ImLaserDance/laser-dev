@@ -4,15 +4,179 @@
     "owner": "Miguel Da Silva",
     "handle": "LaserDance"
   },
+  "metadata": {
+    "home": {
+      "title": "Laser.dev",
+      "description": "AI-ready personal technology platform for backend engineering, software architecture, delivery leadership, fintech, open source, and technical publishing."
+    }
+  },
   "navigation": {
-    "home": "Home",
-    "blog": "Blog",
-    "projects": "Projects",
-    "newsletter": "Newsletter",
-    "air": "AIR"
+    "label": "Primary navigation",
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation",
+    "items": [
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Projects",
+        "href": "/projects"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
+      },
+      {
+        "label": "AIR",
+        "href": "/air"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
   },
   "language": {
+    "label": "Language",
     "current": "English",
     "switchTo": "Switch to Spanish"
+  },
+  "footer": {
+    "tagline": "AI, backend engineering, architecture, delivery leadership, fintech, and open source.",
+    "navLabel": "Footer navigation"
+  },
+  "pages": {
+    "home": {
+      "eyebrow": "LaserDance by Miguel Da Silva",
+      "title": "A bilingual technology platform for AI-ready engineering work.",
+      "description": "Laser.dev brings together portfolio, professional profile, open source work, technical writing, newsletter content, and the AIR reference implementation.",
+      "cardLabel": "Phase 1 foundation",
+      "cardTitle": "Built for multilingual content, typed routing, and production deployment.",
+      "cardText": "The application shell starts with English and Spanish routing, reusable layout primitives, theme tokens, and clean integration boundaries.",
+      "pillars": [
+        {
+          "title": "AI Ready",
+          "description": "Structured metadata, canonical routes, and content contracts designed for human readers and AI systems."
+        },
+        {
+          "title": "Engineering Depth",
+          "description": "A platform for backend architecture, delivery leadership, fintech lessons, and open source projects."
+        },
+        {
+          "title": "Bilingual Publishing",
+          "description": "English and Spanish are modeled as first-class experiences across UI, pages, and future MDX content."
+        }
+      ],
+      "foundation": {
+        "eyebrow": "Technical foundation",
+        "title": "Phase 1 establishes the shell before content systems arrive.",
+        "items": [
+          "Next.js App Router",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion",
+          "ESLint",
+          "Prettier",
+          "Environment configuration",
+          "Locale routing"
+        ]
+      }
+    },
+    "about": {
+      "eyebrow": "About",
+      "title": "Professional profile skeleton",
+      "description": "A structured home for Miguel's engineering background, leadership style, domain focus, and public narrative.",
+      "cards": [
+        {
+          "title": "Engineering Identity",
+          "description": "Backend engineering, software architecture, AI systems, fintech, and delivery leadership."
+        },
+        {
+          "title": "Career Narrative",
+          "description": "A future timeline for roles, impact, decisions, and lessons learned."
+        },
+        {
+          "title": "Operating Style",
+          "description": "Principles for architecture, ownership, delivery, collaboration, and technical judgment."
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Projects",
+      "title": "Open source and portfolio skeleton",
+      "description": "A place to present projects with architecture context, impact, maturity, and contribution paths.",
+      "cards": [
+        {
+          "title": "Open Source",
+          "description": "Repository-backed project entries with maintainership and contribution details."
+        },
+        {
+          "title": "Architecture Notes",
+          "description": "Technical context that explains design choices, boundaries, and tradeoffs."
+        },
+        {
+          "title": "Impact",
+          "description": "Clear outcomes, use cases, and platform relevance for each project."
+        }
+      ]
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Technical publishing skeleton",
+      "description": "A multilingual writing surface for AI, backend systems, architecture, fintech, and delivery leadership.",
+      "cards": [
+        {
+          "title": "MDX Ready",
+          "description": "Future posts will use typed frontmatter, localized slugs, and shared content IDs."
+        },
+        {
+          "title": "Language Variants",
+          "description": "English and Spanish posts can differ by slug while remaining connected by content identity."
+        },
+        {
+          "title": "SEO and AIR",
+          "description": "Posts will publish localized metadata for search, sharing, and AI-ready discovery."
+        }
+      ]
+    },
+    "air": {
+      "eyebrow": "AIR",
+      "title": "Artificial Intelligence Ready skeleton",
+      "description": "The reference implementation for structured, localized, machine-readable metadata across Laser.dev.",
+      "cards": [
+        {
+          "title": "Metadata Contract",
+          "description": "Every page and content item will provide canonical, localized, and AI-readable context."
+        },
+        {
+          "title": "Public Reference",
+          "description": "Laser.dev will document and demonstrate AIR as an implementation pattern."
+        },
+        {
+          "title": "Validation",
+          "description": "Future build checks will keep AIR metadata complete and consistent."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Contact skeleton",
+      "description": "A future contact surface for professional opportunities, collaboration, consulting, and open source discussion.",
+      "cards": [
+        {
+          "title": "Professional Inquiries",
+          "description": "Clear paths for architecture, backend, AI, fintech, and delivery leadership conversations."
+        },
+        {
+          "title": "Newsletter",
+          "description": "A Resend-ready flow will support subscriptions once the email layer is implemented."
+        },
+        {
+          "title": "Open Source",
+          "description": "Contribution and collaboration routes will connect back to project pages."
+        }
+      ]
+    }
   }
 }

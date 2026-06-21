@@ -4,15 +4,179 @@
     "owner": "Miguel Da Silva",
     "handle": "LaserDance"
   },
+  "metadata": {
+    "home": {
+      "title": "Laser.dev",
+      "description": "Plataforma tecnologica personal preparada para IA, backend engineering, arquitectura de software, liderazgo de delivery, fintech, open source y publicacion tecnica."
+    }
+  },
   "navigation": {
-    "home": "Inicio",
-    "blog": "Blog",
-    "projects": "Proyectos",
-    "newsletter": "Newsletter",
-    "air": "AIR"
+    "label": "Navegacion principal",
+    "openMenu": "Abrir navegacion",
+    "closeMenu": "Cerrar navegacion",
+    "items": [
+      {
+        "label": "Sobre mi",
+        "href": "/about"
+      },
+      {
+        "label": "Proyectos",
+        "href": "/projects"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
+      },
+      {
+        "label": "AIR",
+        "href": "/air"
+      },
+      {
+        "label": "Contacto",
+        "href": "/contact"
+      }
+    ]
   },
   "language": {
+    "label": "Idioma",
     "current": "Espanol",
     "switchTo": "Cambiar a ingles"
+  },
+  "footer": {
+    "tagline": "IA, backend engineering, arquitectura, liderazgo de delivery, fintech y open source.",
+    "navLabel": "Navegacion del footer"
+  },
+  "pages": {
+    "home": {
+      "eyebrow": "LaserDance por Miguel Da Silva",
+      "title": "Una plataforma bilingue para trabajo de ingenieria preparado para IA.",
+      "description": "Laser.dev une portfolio, perfil profesional, open source, escritura tecnica, newsletter y la implementacion de referencia AIR.",
+      "cardLabel": "Fundacion de fase 1",
+      "cardTitle": "Construida para contenido multilingue, rutas tipadas y despliegue productivo.",
+      "cardText": "La base de la aplicacion comienza con rutas en ingles y espanol, componentes reutilizables, tokens de tema y limites claros de integracion.",
+      "pillars": [
+        {
+          "title": "Preparada para IA",
+          "description": "Metadatos estructurados, rutas canonicas y contratos de contenido para lectores humanos y sistemas de IA."
+        },
+        {
+          "title": "Profundidad tecnica",
+          "description": "Una plataforma para arquitectura backend, liderazgo de delivery, aprendizajes fintech y proyectos open source."
+        },
+        {
+          "title": "Publicacion bilingue",
+          "description": "Ingles y espanol son experiencias de primera clase en UI, paginas y futuro contenido MDX."
+        }
+      ],
+      "foundation": {
+        "eyebrow": "Base tecnica",
+        "title": "La fase 1 establece el shell antes del sistema de contenido.",
+        "items": [
+          "Next.js App Router",
+          "TypeScript",
+          "Tailwind CSS",
+          "Framer Motion",
+          "ESLint",
+          "Prettier",
+          "Configuracion de entorno",
+          "Rutas por idioma"
+        ]
+      }
+    },
+    "about": {
+      "eyebrow": "Sobre mi",
+      "title": "Esqueleto del perfil profesional",
+      "description": "Un espacio estructurado para el contexto profesional de Miguel, su estilo de liderazgo, foco de dominio y narrativa publica.",
+      "cards": [
+        {
+          "title": "Identidad tecnica",
+          "description": "Backend engineering, arquitectura de software, sistemas de IA, fintech y liderazgo de delivery."
+        },
+        {
+          "title": "Narrativa profesional",
+          "description": "Una futura linea temporal de roles, impacto, decisiones y aprendizajes."
+        },
+        {
+          "title": "Estilo operativo",
+          "description": "Principios de arquitectura, ownership, delivery, colaboracion y criterio tecnico."
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Proyectos",
+      "title": "Esqueleto de portfolio y open source",
+      "description": "Un lugar para presentar proyectos con contexto de arquitectura, impacto, madurez y caminos de contribucion.",
+      "cards": [
+        {
+          "title": "Open Source",
+          "description": "Entradas conectadas a repositorios con detalles de mantenimiento y contribucion."
+        },
+        {
+          "title": "Notas de arquitectura",
+          "description": "Contexto tecnico que explica decisiones de diseno, limites y tradeoffs."
+        },
+        {
+          "title": "Impacto",
+          "description": "Resultados, casos de uso y relevancia de plataforma para cada proyecto."
+        }
+      ]
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Esqueleto de publicacion tecnica",
+      "description": "Una superficie multilingue para escribir sobre IA, backend, arquitectura, fintech y liderazgo de delivery.",
+      "cards": [
+        {
+          "title": "Preparado para MDX",
+          "description": "Los futuros posts usaran frontmatter tipado, slugs localizados e IDs compartidos."
+        },
+        {
+          "title": "Variantes por idioma",
+          "description": "Posts en ingles y espanol pueden tener slugs distintos y seguir conectados por identidad."
+        },
+        {
+          "title": "SEO y AIR",
+          "description": "Los posts publicaran metadatos localizados para busqueda, comparticion y descubrimiento por IA."
+        }
+      ]
+    },
+    "air": {
+      "eyebrow": "AIR",
+      "title": "Esqueleto Artificial Intelligence Ready",
+      "description": "La implementacion de referencia para metadatos estructurados, localizados y legibles por maquinas en Laser.dev.",
+      "cards": [
+        {
+          "title": "Contrato de metadatos",
+          "description": "Cada pagina y contenido aportara contexto canonico, localizado y legible por IA."
+        },
+        {
+          "title": "Referencia publica",
+          "description": "Laser.dev documentara y demostrara AIR como patron de implementacion."
+        },
+        {
+          "title": "Validacion",
+          "description": "Futuros checks de build mantendran los metadatos AIR completos y consistentes."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contacto",
+      "title": "Esqueleto de contacto",
+      "description": "Una futura superficie de contacto para oportunidades profesionales, colaboracion, consulting y open source.",
+      "cards": [
+        {
+          "title": "Consultas profesionales",
+          "description": "Caminos claros para conversaciones de arquitectura, backend, IA, fintech y liderazgo de delivery."
+        },
+        {
+          "title": "Newsletter",
+          "description": "Un flujo preparado para Resend dara soporte a suscripciones cuando se implemente la capa de email."
+        },
+        {
+          "title": "Open Source",
+          "description": "Rutas de contribucion y colaboracion conectaran con las paginas de proyectos."
+        }
+      ]
+    }
   }
 }
