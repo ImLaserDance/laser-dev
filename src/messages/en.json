@@ -1,0 +1,18 @@
+{
+  "brand": {
+    "name": "Laser.dev",
+    "owner": "Miguel Da Silva",
+    "handle": "LaserDance"
+  },
+  "navigation": {
+    "home": "Home",
+    "blog": "Blog",
+    "projects": "Projects",
+    "newsletter": "Newsletter",
+    "air": "AIR"
+  },
+  "language": {
+    "current": "English",
+    "switchTo": "Switch to Spanish"
+  }
+}
