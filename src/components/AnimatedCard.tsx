@@ -11,7 +11,7 @@ export function AnimatedCard({ className = "", children, ...props }: AnimatedCar
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.38, ease: "easeOut" }}
-      className={`rounded-md border border-border bg-surface p-6 shadow-sm shadow-black/5 ${className}`}
+      className={`rounded-md border border-border bg-surface/80 p-6 shadow-sm shadow-black/20 ${className}`}
       {...props}
     >
       {children}

@@ -48,39 +48,140 @@
   },
   "pages": {
     "home": {
-      "eyebrow": "LaserDance by Miguel Da Silva",
-      "title": "A bilingual technology platform for AI-ready engineering work.",
-      "description": "Laser.dev brings together portfolio, professional profile, open source work, technical writing, newsletter content, and the AIR reference implementation.",
-      "cardLabel": "Phase 1 foundation",
-      "cardTitle": "Built for multilingual content, typed routing, and production deployment.",
-      "cardText": "The application shell starts with English and Spanish routing, reusable layout primitives, theme tokens, and clean integration boundaries.",
-      "pillars": [
-        {
-          "title": "AI Ready",
-          "description": "Structured metadata, canonical routes, and content contracts designed for human readers and AI systems."
-        },
-        {
-          "title": "Engineering Depth",
-          "description": "A platform for backend architecture, delivery leadership, fintech lessons, and open source projects."
-        },
-        {
-          "title": "Bilingual Publishing",
-          "description": "English and Spanish are modeled as first-class experiences across UI, pages, and future MDX content."
-        }
-      ],
-      "foundation": {
-        "eyebrow": "Technical foundation",
-        "title": "Phase 1 establishes the shell before content systems arrive.",
-        "items": [
-          "Next.js App Router",
-          "TypeScript",
-          "Tailwind CSS",
-          "Framer Motion",
-          "ESLint",
-          "Prettier",
-          "Environment configuration",
-          "Locale routing"
+      "hero": {
+        "kicker": "LaserDance by Miguel Da Silva",
+        "title": "Architecting AI-ready platforms with backend depth and delivery discipline.",
+        "description": "Laser.dev is the premium home for Miguel Da Silva's engineering work: AI systems, backend architecture, fintech delivery, open source, technical writing, and the AIR reference implementation.",
+        "primaryCta": "Explore projects",
+        "secondaryCta": "Discover AIR",
+        "portraitAlt": "Miguel Da Silva, LaserDance"
+      },
+      "identity": {
+        "label": "Identity",
+        "name": "LaserDance",
+        "description": "A personal engineering brand focused on elegant systems, accountable delivery, and AI-ready software architecture.",
+        "stats": [
+          {
+            "value": "AI",
+            "label": "Platform focus"
+          },
+          {
+            "value": "BE",
+            "label": "Backend depth"
+          },
+          {
+            "value": "AIR",
+            "label": "Reference standard"
+          },
+          {
+            "value": "OSS",
+            "label": "Open source"
+          }
         ]
+      },
+      "positioning": {
+        "eyebrow": "Professional positioning",
+        "title": "A senior engineering profile shaped around systems that need to be trusted.",
+        "cards": [
+          {
+            "label": "Architecture",
+            "title": "Software architecture with operating taste.",
+            "description": "Clear boundaries, durable contracts, and practical decisions that teams can actually ship and maintain."
+          },
+          {
+            "label": "Backend",
+            "title": "Backend engineering for product pressure.",
+            "description": "APIs, data flows, integrations, reliability, and delivery mechanics built for real-world constraints."
+          },
+          {
+            "label": "Leadership",
+            "title": "Delivery leadership without theater.",
+            "description": "Technical direction, prioritization, and execution habits that turn ambiguity into shipped software."
+          }
+        ]
+      },
+      "projects": {
+        "eyebrow": "Featured projects",
+        "title": "Selected work will connect code, architecture, and impact.",
+        "items": [
+          {
+            "title": "AIR Reference Implementation",
+            "description": "A public model for AI-readable metadata, localized content, canonical routes, and machine-friendly context.",
+            "status": "Foundation",
+            "tags": ["AI", "Metadata", "Next.js"]
+          },
+          {
+            "title": "Laser.dev Platform",
+            "description": "The personal technology platform combining portfolio, blog, newsletter, open source, and professional identity.",
+            "status": "Active",
+            "tags": ["App Router", "i18n", "Vercel"]
+          },
+          {
+            "title": "Open Source Showcase",
+            "description": "A curated surface for project maturity, contribution paths, architecture notes, and public engineering artifacts.",
+            "status": "Planned",
+            "tags": ["OSS", "Architecture", "DX"]
+          }
+        ]
+      },
+      "air": {
+        "eyebrow": "AIR introduction",
+        "title": "Artificial Intelligence Ready is the platform standard, not a decorative feature.",
+        "statement": "AIR makes content legible to people, search engines, and AI systems through structured, localized metadata.",
+        "description": "Laser.dev will model this directly: every public surface should know what it is, who it serves, what language it speaks, and how it relates to the broader technical graph.",
+        "cta": "Read the AIR page",
+        "points": [
+          {
+            "title": "Language-aware context",
+            "description": "English and Spanish content keep their own metadata, slugs, summaries, and canonical relationships."
+          },
+          {
+            "title": "Machine-readable surfaces",
+            "description": "Pages are designed to be understandable by AI agents without sacrificing the premium human experience."
+          },
+          {
+            "title": "Stable content identity",
+            "description": "Posts, projects, and pages can connect variants through durable IDs instead of fragile slug matching."
+          },
+          {
+            "title": "Validation-first publishing",
+            "description": "Future build checks will keep metadata, routes, and publishing state consistent before deployment."
+          }
+        ]
+      },
+      "articles": {
+        "eyebrow": "Latest articles",
+        "title": "A writing surface for durable technical thinking.",
+        "items": [
+          {
+            "category": "Architecture",
+            "title": "Designing AI-ready software boundaries",
+            "description": "How metadata, routing, and content contracts change when AI systems become readers."
+          },
+          {
+            "category": "Backend",
+            "title": "Backend delivery under fintech constraints",
+            "description": "A practical lens on reliability, integration risk, and product momentum."
+          },
+          {
+            "category": "Leadership",
+            "title": "Technical leadership as decision quality",
+            "description": "Notes on clarity, ownership, and the difference between motion and progress."
+          }
+        ]
+      },
+      "newsletter": {
+        "eyebrow": "Newsletter",
+        "title": "A concise signal for builders who care about architecture and AI.",
+        "description": "Future issues will share technical notes, project updates, AI-ready implementation patterns, and backend architecture lessons from Laser.dev.",
+        "placeholder": "you@example.com",
+        "cta": "Join the list"
+      },
+      "contact": {
+        "eyebrow": "Contact CTA",
+        "title": "Let's build systems that are clear enough to scale and sharp enough to ship.",
+        "description": "Reach out for architecture, backend engineering, AI platform work, fintech delivery, open source collaboration, or thoughtful technical writing.",
+        "cta": "Start a conversation"
       }
     },
     "about": {

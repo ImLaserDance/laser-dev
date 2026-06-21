@@ -10,7 +10,7 @@ type FooterProps = {
 
 export function Footer({ dictionary, locale }: FooterProps) {
   return (
-    <footer className="border-t border-border bg-surface/70">
+    <footer className="border-t border-border bg-background/90">
       <Container className="flex flex-col gap-6 py-8 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="font-semibold">{dictionary.brand.name}</p>

@@ -48,39 +48,140 @@
   },
   "pages": {
     "home": {
-      "eyebrow": "LaserDance por Miguel Da Silva",
-      "title": "Una plataforma bilingue para trabajo de ingenieria preparado para IA.",
-      "description": "Laser.dev une portfolio, perfil profesional, open source, escritura tecnica, newsletter y la implementacion de referencia AIR.",
-      "cardLabel": "Fundacion de fase 1",
-      "cardTitle": "Construida para contenido multilingue, rutas tipadas y despliegue productivo.",
-      "cardText": "La base de la aplicacion comienza con rutas en ingles y espanol, componentes reutilizables, tokens de tema y limites claros de integracion.",
-      "pillars": [
-        {
-          "title": "Preparada para IA",
-          "description": "Metadatos estructurados, rutas canonicas y contratos de contenido para lectores humanos y sistemas de IA."
-        },
-        {
-          "title": "Profundidad tecnica",
-          "description": "Una plataforma para arquitectura backend, liderazgo de delivery, aprendizajes fintech y proyectos open source."
-        },
-        {
-          "title": "Publicacion bilingue",
-          "description": "Ingles y espanol son experiencias de primera clase en UI, paginas y futuro contenido MDX."
-        }
-      ],
-      "foundation": {
-        "eyebrow": "Base tecnica",
-        "title": "La fase 1 establece el shell antes del sistema de contenido.",
-        "items": [
-          "Next.js App Router",
-          "TypeScript",
-          "Tailwind CSS",
-          "Framer Motion",
-          "ESLint",
-          "Prettier",
-          "Configuracion de entorno",
-          "Rutas por idioma"
+      "hero": {
+        "kicker": "LaserDance por Miguel Da Silva",
+        "title": "Arquitectura de plataformas preparadas para IA con profundidad backend y disciplina de delivery.",
+        "description": "Laser.dev es el hogar premium del trabajo tecnico de Miguel Da Silva: sistemas de IA, arquitectura backend, delivery fintech, open source, escritura tecnica y la implementacion de referencia AIR.",
+        "primaryCta": "Explorar proyectos",
+        "secondaryCta": "Descubrir AIR",
+        "portraitAlt": "Miguel Da Silva, LaserDance"
+      },
+      "identity": {
+        "label": "Identidad",
+        "name": "LaserDance",
+        "description": "Una marca personal de ingenieria enfocada en sistemas elegantes, delivery responsable y arquitectura preparada para IA.",
+        "stats": [
+          {
+            "value": "IA",
+            "label": "Foco de plataforma"
+          },
+          {
+            "value": "BE",
+            "label": "Profundidad backend"
+          },
+          {
+            "value": "AIR",
+            "label": "Estandar de referencia"
+          },
+          {
+            "value": "OSS",
+            "label": "Open source"
+          }
         ]
+      },
+      "positioning": {
+        "eyebrow": "Posicionamiento profesional",
+        "title": "Un perfil senior de ingenieria construido alrededor de sistemas que deben generar confianza.",
+        "cards": [
+          {
+            "label": "Arquitectura",
+            "title": "Arquitectura de software con criterio operativo.",
+            "description": "Limites claros, contratos duraderos y decisiones practicas que los equipos pueden entregar y mantener."
+          },
+          {
+            "label": "Backend",
+            "title": "Backend engineering para presion de producto.",
+            "description": "APIs, flujos de datos, integraciones, fiabilidad y mecanicas de delivery para restricciones reales."
+          },
+          {
+            "label": "Liderazgo",
+            "title": "Liderazgo de delivery sin teatro.",
+            "description": "Direccion tecnica, priorizacion y habitos de ejecucion que convierten ambiguedad en software entregado."
+          }
+        ]
+      },
+      "projects": {
+        "eyebrow": "Proyectos destacados",
+        "title": "El trabajo seleccionado conectara codigo, arquitectura e impacto.",
+        "items": [
+          {
+            "title": "Implementacion de referencia AIR",
+            "description": "Un modelo publico para metadatos legibles por IA, contenido localizado, rutas canonicas y contexto machine-friendly.",
+            "status": "Base",
+            "tags": ["IA", "Metadata", "Next.js"]
+          },
+          {
+            "title": "Plataforma Laser.dev",
+            "description": "La plataforma tecnologica personal que une portfolio, blog, newsletter, open source e identidad profesional.",
+            "status": "Activa",
+            "tags": ["App Router", "i18n", "Vercel"]
+          },
+          {
+            "title": "Showcase open source",
+            "description": "Una superficie curada para madurez de proyectos, rutas de contribucion, notas de arquitectura y artefactos publicos.",
+            "status": "Planificado",
+            "tags": ["OSS", "Arquitectura", "DX"]
+          }
+        ]
+      },
+      "air": {
+        "eyebrow": "Introduccion a AIR",
+        "title": "Artificial Intelligence Ready es el estandar de la plataforma, no una decoracion.",
+        "statement": "AIR hace que el contenido sea legible para personas, motores de busqueda y sistemas de IA mediante metadatos estructurados y localizados.",
+        "description": "Laser.dev lo modelara directamente: cada superficie publica debe saber que es, a quien sirve, que idioma habla y como se relaciona con el grafo tecnico.",
+        "cta": "Leer la pagina AIR",
+        "points": [
+          {
+            "title": "Contexto por idioma",
+            "description": "El contenido en ingles y espanol mantiene sus propios metadatos, slugs, resumenes y relaciones canonicas."
+          },
+          {
+            "title": "Superficies legibles por maquinas",
+            "description": "Las paginas estan disenadas para que agentes de IA las entiendan sin sacrificar la experiencia humana premium."
+          },
+          {
+            "title": "Identidad estable de contenido",
+            "description": "Posts, proyectos y paginas pueden conectar variantes mediante IDs duraderos en vez de slugs fragiles."
+          },
+          {
+            "title": "Publicacion con validacion",
+            "description": "Futuros checks de build mantendran metadatos, rutas y estado de publicacion consistentes antes del despliegue."
+          }
+        ]
+      },
+      "articles": {
+        "eyebrow": "Ultimos articulos",
+        "title": "Una superficie editorial para pensamiento tecnico duradero.",
+        "items": [
+          {
+            "category": "Arquitectura",
+            "title": "Disenar limites de software preparados para IA",
+            "description": "Como cambian metadatos, rutas y contratos de contenido cuando los sistemas de IA tambien son lectores."
+          },
+          {
+            "category": "Backend",
+            "title": "Delivery backend bajo restricciones fintech",
+            "description": "Una mirada practica a fiabilidad, riesgo de integracion y momentum de producto."
+          },
+          {
+            "category": "Liderazgo",
+            "title": "Liderazgo tecnico como calidad de decision",
+            "description": "Notas sobre claridad, ownership y la diferencia entre movimiento y progreso."
+          }
+        ]
+      },
+      "newsletter": {
+        "eyebrow": "Newsletter",
+        "title": "Una senal concisa para builders que cuidan la arquitectura y la IA.",
+        "description": "Los futuros envios compartiran notas tecnicas, updates de proyectos, patrones AIR y aprendizajes de arquitectura backend desde Laser.dev.",
+        "placeholder": "tu@email.com",
+        "cta": "Unirme a la lista"
+      },
+      "contact": {
+        "eyebrow": "Contact CTA",
+        "title": "Construyamos sistemas claros para escalar y precisos para entregar.",
+        "description": "Contacta para arquitectura, backend engineering, plataformas de IA, delivery fintech, colaboracion open source o escritura tecnica.",
+        "cta": "Iniciar conversacion"
       }
     },
     "about": {

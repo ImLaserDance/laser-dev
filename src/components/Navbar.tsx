@@ -18,7 +18,7 @@ export function Navbar({ dictionary, locale }: NavbarProps) {
   const navItems = dictionary.navigation.items;
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-background/88 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-border bg-background/82 backdrop-blur-xl">
       <Container className="flex min-h-16 items-center justify-between gap-5 py-3">
         <Link
           className="focus-ring rounded text-lg font-semibold tracking-normal"
